@@ -1,0 +1,15 @@
+.form__container {
+    margin: 12px;
+    text-align: start;
+    width: 300px;
+}
+
+.form__save__btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px; 
+}
+
+label {
+    font-weight: 600;
+}

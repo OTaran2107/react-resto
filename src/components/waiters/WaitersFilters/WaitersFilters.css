@@ -1,0 +1,30 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 12px 0;
+}
+
+.filter__item {
+    display: flex;
+    margin: 4px 16px;
+}
+
+.filter__checkbox {
+    position: relative;
+    left: 16px;
+}
+
+.filter__checkbox > label {
+    margin-left: 4px;
+}
+
+.filter__item__title {
+    width: 60px;
+    margin-right: 4px;
+}
+
+.filter__checkbox__title > label,
+.filter__item__title > label {
+    font-weight: 400;
+}

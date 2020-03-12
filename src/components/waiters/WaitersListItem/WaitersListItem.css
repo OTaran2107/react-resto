@@ -1,0 +1,21 @@
+.item__delete__btn {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+}
+
+.item__delete__btn > button {
+    width: 100px;
+}
+
+.item__delete__btn > button > span {
+    margin-right: 2px;
+}
+
+td {
+  vertical-align: middle !important;
+}
+
+tr:hover {
+  cursor: pointer;
+}

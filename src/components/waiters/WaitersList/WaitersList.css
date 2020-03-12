@@ -1,0 +1,48 @@
+.list__container {
+  display: flex;
+  border: 1px solid gainsboro;
+}
+
+.list__filters {
+  height: 900px;
+  width: 250px;
+  margin: 0 12px;
+  border-right: 1px solid gainsboro;
+}
+
+.list__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.list__content__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+}
+
+.list__search {
+    display: flex;
+    border: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+.list__search > input {
+    border: none;
+    outline: none;
+}
+
+.list__add__btn {
+  display: flex;
+}
+
+.list__content__body {
+  margin: 12px;
+  width: 700px;
+}
+
+.form__icon {
+  width: 30px;
+  height: 30px;
+}
